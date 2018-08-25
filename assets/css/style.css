@@ -906,7 +906,7 @@ button:focus {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  min-height: 850px;
+  /*Estava esse valor /min-height: 850px;*/min-height: 620px;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
