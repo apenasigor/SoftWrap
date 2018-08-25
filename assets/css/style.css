@@ -347,7 +347,7 @@ button:focus {
     .xs-header.header-main .xs-menus .nav-menu > li.active > a {
       color: #333333; }
     .xs-header.header-main .xs-menus .nav-menu > li a .submenu-indicator-chevron {
-      border-color: transparent #00138e #00138e transparent; }
+      /*Cor que estava sendo usada border-color: transparent #00138e #00138e transparent;*/border-color: transparent #0072ff #0072ff transparent; }
     .xs-header.header-main .xs-menus .nav-menu > li:not(:last-child) {
       margin-right: 27px;
       padding-right: 27px; }
@@ -357,7 +357,7 @@ button:focus {
       right: auto !important; }
     .xs-header.header-main .xs-menus .nav-menu > li > a {
       padding: 44px 0;
-      color: #00138e;
+      /*Cor que estava sendo usada color: #00138e;*/color: #0072ff;
       font-weight: 700;
       font-family: "Lato", sans-serif;
       position: relative; }
@@ -385,9 +385,9 @@ button:focus {
       line-height: 1;
       padding: 39px 0; }
       .xs-header.header-main .xs-menu-tools > li > a {
-        color: #00138e; }
+        color: #0072ff; }
         .xs-header.header-main .xs-menu-tools > li > a:hover {
-          color: #0c5adb; }
+          color: #00138e; }
         .xs-header.header-main .xs-menu-tools > li > a .xs-flag {
           -webkit-box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.2);
