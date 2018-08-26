@@ -328,7 +328,7 @@ button:focus {
         height: calc(100% - 12px);
         width: calc(100% - 12px);
         border-radius: 50%;
-        background-color: #00138e;
+        background-color: #0072ff;
         display: block;
         text-align: center;
         margin: 0 auto;
@@ -1395,7 +1395,7 @@ button:focus {
 .service-preview-content {
   padding-left: 35px; }
   .service-preview-content .xs-content-title {
-    color: #0c5adb;
+    color: #0072ff;
     margin-bottom: 20px; }
   .service-preview-content p {
     margin-bottom: 30px; }
@@ -1756,7 +1756,7 @@ button:focus {
     19. news letter thumd
 ==============================================================*/
 .newsletter-thumb-wraper {
-  background-color: #0c5adb;
+  background-color: #0072ff;
   text-align: center;
   border-radius: 5px;
   -webkit-box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
@@ -3028,7 +3028,7 @@ button:focus {
     -webkit-box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.12);
     box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.12); }
   .btn.btn-primary {
-    background-color: #0c5adb; }
+    /*Estava sendo usada essa cor background-color: #0c5adb; */background-color: #0072ff; }
     .btn.btn-primary:hover {
       background-color: #00138e; }
   .btn.btn-secondary {
@@ -3060,10 +3060,10 @@ button:focus {
       background-color: #00138e;
       color: #FFFFFF; }
   .btn.btn-outline-primary {
-    border-color: #0c5adb;
-    color: #0c5adb; }
+    border-color: #0072ff;
+    color: #0072ff; }
     .btn.btn-outline-primary:hover {
-      background-color: #0c5adb;
+      /*Estava sendo usada essa cor background-color: #0c5adb; */background-color: #0072ff;
       color: #FFFFFF; }
 
 /*=================================================
@@ -3298,7 +3298,7 @@ button:focus {
   position: relative; }
   .xs-heading .section-subtitle {
     font-size: 1.3333333333rem;
-    color: #0c5adb;
+    color: #0072ff;
     margin-bottom: 10px;
     font-weight: 400; }
   .xs-heading .line {
@@ -3316,7 +3316,7 @@ button:focus {
       width: 105px;
       height: 1px; }
     .xs-heading .line::after {
-      background-color: #0c5adb;
+      background-color: #0072ff;
       width: 40px;
       height: 3px;
       bottom: -1px; }
@@ -3703,7 +3703,7 @@ button:focus {
 ==============================================================*/
 /* top bar */
 .xs-top-bar {
-  background-color: #0c5adb;
+  background-color: #0072ff;
   padding: 14px 0; }
   .xs-top-bar .xs-list {
     text-align: right;
@@ -5209,7 +5209,9 @@ blockquote {
 
 /* background color */
 .primary-bg {
-  background-color: #0c5adb; }
+  /*Estava sendo usada essa cor background-color: #0c5adb; */
+	background-color: #0072ff;
+}
 
 /* color */
 .secondary-color {
